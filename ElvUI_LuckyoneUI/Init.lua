@@ -23,7 +23,7 @@ Private.Name = '|cff4beb2cLuckyoneUI|r'
 -- Constants: Media
 Private.Font = 'Expressway'
 Private.Outline = 'OUTLINE'
-Private.Texture = 'Minimalist'
+Private.Texture = 'Flat'
 
 -- Constants: Tables
 Private.Config = {}

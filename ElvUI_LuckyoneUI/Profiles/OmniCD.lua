@@ -440,8 +440,8 @@ function Private:Setup_OmniCD(layout, installer)
 		}
 		OmniCDDB['profiles'][profile]['General']['textures'] = {
 			['statusBar'] = {
-				['BG'] = 'Minimalist',
-				['bar'] = 'Minimalist',
+				['BG'] = 'Flat',
+				['bar'] = 'Flat',
 			},
 		}
 

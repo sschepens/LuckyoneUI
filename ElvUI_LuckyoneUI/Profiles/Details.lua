@@ -33,8 +33,8 @@ function Private:Setup_Details(installer)
 	end
 
 	-- Load the profile on all characters
-	_detalhes.always_use_profile = true
-	_detalhes.always_use_profile_name = name
+	-- _detalhes.always_use_profile = true
+	-- _detalhes.always_use_profile_name = name
 
 	if installer then
 		_G.LuckyoneInstallStepComplete.message = L["Details profile has been set."]
