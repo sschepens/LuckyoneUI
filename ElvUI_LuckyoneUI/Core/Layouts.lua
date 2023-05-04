@@ -2865,6 +2865,7 @@ function Private:Layout_Dragonflight(layout)
 		E.db.movers.ElvUF_TargetMover = 'BOTTOM,ElvUIParent,BOTTOM,278,300'
 		E.db.movers.ElvUF_TargetTargetMover = 'BOTTOM,ElvUIParent,BOTTOM,0,252'
 		E.db.movers.VehicleLeaveButton = 'BOTTOM,ElvUIParent,BOTTOM,0,185'
+		E.db.movers.TotemBarMover = "BOTTOM,ElvUIParent,BOTTOM,0,158"
 
 	elseif layout == 'healing' then
 
@@ -2915,6 +2916,7 @@ function Private:Layout_Dragonflight(layout)
 		E.db.movers.ElvUF_TargetMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-482,300'
 		E.db.movers.ElvUF_TargetTargetMover = 'BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-202,320'
 		E.db.movers.VehicleLeaveButton = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,382,141'
+		E.db.movers.TotemBarMover = "BOTTOM,ElvUIParent,BOTTOM,0,341"
 
 	elseif layout == 'support' then
 
@@ -3946,6 +3948,7 @@ function Private:Layout_Shadowlands(layout)
 		E.db.movers.PlayerChoiceToggle = 'BOTTOM,UIParent,BOTTOM,0,182'
 		E.db.movers.VehicleLeaveButton = 'BOTTOM,ElvUIParent,BOTTOM,0,182'
 		E.db.movers.VehicleSeatMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,486,1'
+		E.db.movers.TotemBarMover = "BOTTOM,ElvUIParent,BOTTOM,0,158"
 
 		-- Main Party
 		E.db.unitframe.units.party.buffIndicator.size = 12
@@ -4113,6 +4116,7 @@ function Private:Layout_Shadowlands(layout)
 		E.db.movers.PlayerChoiceToggle = 'BOTTOM,UIParent,BOTTOM,0,158'
 		E.db.movers.VehicleLeaveButton = 'BOTTOM,ElvUIParent,BOTTOM,0,368'
 		E.db.movers.VehicleSeatMover = 'BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,438,1'
+		E.db.movers.TotemBarMover = "BOTTOM,ElvUIParent,BOTTOM,0,341"
 
 		-- Healing Party
 		E.db.unitframe.units.party.classbar.enable = false
