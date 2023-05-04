@@ -1704,6 +1704,8 @@ function Private:Layout_Dragonflight(layout)
 	E.db.general.talkingHeadFrameBackdrop = true
 	E.db.general.talkingHeadFrameScale = 0.7
 	E.db.general.vehicleSeatIndicatorSize = 64
+	E.db.general.totems.growthDirection = "HORIZONTAL"
+	E.db.general.totems.size = 32
 
 	if E.Retail then
 		E.db.general.addonCompartment.fontOutline = Private.Outline
@@ -3040,6 +3042,8 @@ function Private:Layout_Shadowlands(layout)
 	E.db.general.talkingHeadFrameBackdrop = true
 	E.db.general.talkingHeadFrameScale = 0.7
 	E.db.general.vehicleSeatIndicatorSize = 64
+	E.db.general.totems.growthDirection = "HORIZONTAL"
+	E.db.general.totems.size = 32
 
 	-- ActionBars
 	E.db.actionbar.bar1.alpha = 1
