@@ -2475,7 +2475,7 @@ function Private:Layout_Dragonflight(layout)
 	E.db.unitframe.units.player.castbar.customTimeFont.enable = true
 	E.db.unitframe.units.player.castbar.customTimeFont.font = Private.Font
 	E.db.unitframe.units.player.castbar.customTimeFont.fontSize = 11
-	E.db.unitframe.units.player.castbar.latency = false
+	E.db.unitframe.units.player.castbar.latency = true
 	E.db.unitframe.units.player.castbar.spark = false
 	E.db.unitframe.units.player.castbar.textColor.b = 1
 	E.db.unitframe.units.player.castbar.textColor.g = 1
@@ -3740,7 +3740,7 @@ function Private:Layout_Shadowlands(layout)
 	E.db.unitframe.units.player.castbar.customTimeFont.font = Private.Font
 	E.db.unitframe.units.player.castbar.customTimeFont.fontSize = 11
 	E.db.unitframe.units.player.castbar.height = 20
-	E.db.unitframe.units.player.castbar.latency = false
+	E.db.unitframe.units.player.castbar.latency = true
 	E.db.unitframe.units.player.castbar.spark = false
 	E.db.unitframe.units.player.castbar.textColor.b = 1
 	E.db.unitframe.units.player.castbar.textColor.g = 1
